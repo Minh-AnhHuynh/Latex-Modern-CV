@@ -1,0 +1,201 @@
+---
+title: "Curriculum Vitae Slides"
+author: "Minh-Anh Huynh"
+format: 
+  revealjs:
+    theme: simple
+    scrollable: true
+    slide-number: true
+    incremental: true
+    # smaller: true
+    preview-links: true
+    embed-resources: true
+    footnotes-hover: true
+    reference-location: margin
+    bibliography: [depression.bib, slides.bib, med-science.bib]
+    csl: bioinformatics.csl
+    overview: true
+    css: style.css
+    auto-stretch: false # Magic option that makes your image display...
+editor: visual
+---
+
+# Minh-Anh Huynh {.center}
+
+::: columns
+::: {.column width="70%"}
+26 years old
+
+French nationality, Vietnamese origin,
+:::
+
+::: {.column width="30%"}
+![](Photo_CV.png){fig-align="right" width="600"}
+:::
+:::
+
+-   **Objective:** \
+    Pharmacist-Researcher & Computational Immunology
+
+-   Ph.D. in Bioinformatics
+
+-   Post-doc in academy
+
+# Education
+
+## Doctor of Pharmacy (2017-2024)
+
+-   Currently finishing my **pharmaceutical thesis on Vitamin D and
+    COVID-19** (expected in February 2024).
+
+-   Basic R programming and statistics
+
+-   Pharmacokinetics, pharmacology, genetics, chemistry (inorganic,
+    organic, analytical)
+
+## Master's Degree (2021-2022)
+
+-  M1 **Immunology** University of Paris-Cité
+
+    -   General Microbiology, Immunology and Immunopathology.
+
+-   M2: **Systems Immunology** (Molecular and Cellular Biology) at Sorbonne
+    University
+
+    -   Conferences on systems biology, computational aspect and
+    bioinformatics
+
+    -   Hands-on R programming workshops on downstream analysis of bulk RNA-Seq data
+
+## Publications
+
+-   Gautier, Candice, Minh-Anh Huynh, Camille Peron, et Jonathan
+    Pol. 2023. **«Bacteria modified to produce L-arginine potentiate
+    cancer immunotherapy»**. Médecine/Sciences 39 (10): 793‑95.
+    https://doi.org/10.1051/medsci/2023109.
+
+-   Minh-Anh Huynh, Agnès Ostertag, Camille Péron, Dominique Modrowski,
+    **Multilayered control of inflammation/immunity in osteosarcomas.
+    Contribution of the sarcoma stem cells**, Pasteur International
+    Cancer Conference, 2023, Institut Pasteur, Paris, France
+
+![Multilayered control of inflammation/immunity in osteosarcomas.
+Contribution of the sarcoma stem
+cells](Poster_Pasteur_2023.jpg){fig-align="center"}
+
+# Internships
+
+## Bioinformatics internship at Lariboisière (INSERM) \| 4 months
+
+Determination of inflammatory status in osteosarcoma samples and
+association with osteosarcoma phenotypes, mechanisms and pathways
+
+-   R programming
+-   Construction of a custom inflammatory index based on hallmark MSigDB
+    inflammatory signature
+-   Bulk RNA-Seq
+-   Differential gene expression analysis (DESeq2)
+-   Functional Pathway Analysis (enrichR)
+-   GSEA
+-   Tools: MDS, heatmaps, UMAP, k-means clustering, survival plot, MCP
+    counter (immune deconvolution), ESTIMATE score, statistical
+    analysis, Bioconductor
+    [Github](https://github.com/Minh-AnhHuynh/TargetOS-Osteosarcoma)
+-   Not enough data for scRNA-Seq (tentative
+    [nichenet](https://github.com/saeyslab/nichenetr) project)
+    
+![Heatmap of Hallmark Inflammatory Response Signature from MSigDB](heatmap_signature.jpg)
+
+## Neuroinflammation internship \| 2021 (4 months)
+
+-   Study of microglial activation in a mouse model of comorbid cocaine
+    addiction and post-traumatic stress.
+-   Immunohistochemistry manipulation, quantification and creation of
+    macros using Image J and Pulover.
+
+### Bibliographic \| 2 months
+
+-   Internship on Spike-ACE2 interactions of SARS-CoV-2 and
+    pathophysiology of COVID-19.
+
+## Industry Track Group Project
+
+### Camostat Mesylate in COVID-19 \| 2020-2021 (6 months)
+
+-   Management of the clinical division and clinical trial design.
+
+-   Pharmacokinetics of Camostat, bioavailability in lungs.
+
+# Research ideas about Ph.D.
+
+## Vitamin D and COVID-19
+
+-   Currently working on pharmacy thesis about Vitamin D and COVID-19
+
+-   Both the incidence and severity of COVID-19 are epidemiologically
+    associated with VitD deficiency/insufficiency
+
+-   Strong relationship between immune tolerance and (insufficient)
+    vitamin D levels: ubiquitous VDR + key cytokines and transcription
+    factors
+
+-   Vitamin D surprisingly plays many roles:
+
+    -   cardiovascular system (thrombotic events);
+
+    -   Immune tolerance and immune health;
+
+    -   Renin Angiotensin System (lung injury, cardiovascular,
+        inflammation);
+
+    -   Protection against acute respiratory lung infections;
+
+        -   Implication: Vitamin D **reshapes the epigenetic landscape**
+            of (immune) cells [@Chauss.2022]
+
+-   New research literature since 2011 (IOM) show that there might be a
+    need to increase VitD levels (from 20-30 ng/ml) to at least 40 ng/mL
+    for immunological benefits
+
+### Further explore links between VitD and COVID-19 through bioinformatical approach
+
+@Chauss.2022 : Investigated molecular mechanisms of CD4^+^ responses in
+COVID-19
+
+![VitD induces IL-10 in CD4^+^](chauss-vit-d-tf.jpg)
+
+<!-- ![VitD induces IL-10 in -->
+<!-- CD4^+^](chauss_vd_induction.jpg){fig-align="center"} -->
+
+<!-- ![VitD recruits key TFs to shape transcriptional -->
+<!-- output](chauss_tf.jpg){fig-align="center"} -->
+
+- Use spatial transcriptomics to investigate and identify lymphocytes types/states in relation to inflammation? 
+
+## Depression and inflammation
+
+-   Literature research state serotonin theory has nothing to depression
+    [@Lacasse.2005; @Cowen.2015 ; @Moncrieff.2022].
+    
+- Hypothesis of depression linked to elevated brain inflammation [@Liu.2017 ; @Kubera.2011]
+
+- SSRI are actually anti-inflammatory [@Taler.2007]
+
+- Brain: Examining relationship between elevated brain inflammation and depression disorders with possible links to treatment resistant depression, on an individualized level ()
+
+![Metabolomic analysis of treatment-refractory major depressive disorder with suicidal ideation. @Pan.2023](depression-vd.jpg)
+
+Role of vitamin D ?
+
+#
+
+> Spatial Transcriptomics (ST) is a powerful technology to map the
+molecular space in 2D. Our lab is using a wide range of ST technologies
+to investigate how drugs are delivered to various organs including tumor
+mass at the single cell resolution.
+
+> We are looking for excellent candidates willing to investigate various
+in vivo drug delivery vehicles to learn latest bioinformatics tools to
+develop efficient and cell-specific drug delivery tools.
+
+# References

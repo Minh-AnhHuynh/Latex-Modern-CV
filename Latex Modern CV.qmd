@@ -1,0 +1,21 @@
+---
+title: "Latex Modern CV"
+format: 
+ pdf:
+  pdf-engine: latexmk
+header-includes:
+- \documentclass[a4paper]{moderncv}
+- \usepackage{libertine}
+- \moderncvcolor{blue}
+- \moderncvtheme{fancy}
+- \usepackage[english]{babel}
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a
+finished document. To learn more about Quarto see <https://quarto.org>.
+
+```{r}
+1 + 1
+```
