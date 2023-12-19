@@ -85,7 +85,7 @@ cells](Poster_Pasteur_2023.jpg){fig-align="center"}
 
 # Internships
 
-## Bioinformatics internship at Lariboisière (INSERM) \| 4 months
+## Bioinformatics internship at Lariboisière (INSERM) \| (2022) 4 months
 
 Determination of inflammatory status in osteosarcoma samples and
 association with osteosarcoma phenotypes, mechanisms and pathways
@@ -181,7 +181,7 @@ COVID-19
 
 - SSRI are actually anti-inflammatory [@Taler.2007]
 
-- Brain: Examining relationship between elevated brain inflammation and depression disorders with possible links to treatment resistant depression, on an individualized level ()
+- Brain: Examining relationship between elevated brain inflammation and depression disorders with possible links to treatment resistant depression, on an individualized level
 
 ![Metabolomic analysis of treatment-refractory major depressive disorder with suicidal ideation. @Pan.2023](depression-vd.jpg)
 
