@@ -1,5 +1,5 @@
 ---
-title: "Curriculum Vitae Slides"
+title: "Curriculum Vitae Presentation"
 author: "Minh-Anh Huynh"
 format: 
   revealjs:
